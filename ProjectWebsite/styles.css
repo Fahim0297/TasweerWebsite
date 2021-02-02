@@ -151,10 +151,19 @@ header {
     opacity: .75;
 }
 
-.section-content{
+.section-content-right{
     display: flex;
     flex-direction: column;
-    padding-left: 25vw;
+    padding-left: 20vw;
+    margin-top: 22vh;
+    font-size: 18px;
+    /* line-height: 1.2; */
+}
+
+.section-content-left{
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 20vw; */
     margin-top: 22vh;
     font-size: 18px;
     /* line-height: 1.2; */
@@ -219,11 +228,11 @@ header {
 .container2{
     background-image: url("assets/SplashScreen.svg");
     background-repeat: no-repeat;
-    /* background-position: -20vw 50%; */
+    background-position: -10vw -5%;
     /* background-size: 500% 500%; */
     height: 90vh;
     min-height: 600px;
-    background-size: 600px;
+    background-size: 700px;
     margin: none;
     padding-left: 25vw;
 }
@@ -250,13 +259,16 @@ header {
 .container3{
     background-image: url("assets/HomeScreen.svg");
     background-repeat: no-repeat;
-    /* background-position: -20vw 50%; */
+    background-position: 35vw -5%;
     /* background-size: 500% 500%; */
     height: 90vh;
     min-height: 600px;
-    background-size: 600px;
+    background-size: 700px;
     margin: none;
-    padding-left: 25vw;
+    margin-left: 10vw;
+    /* margin-right: 10vw; */
+    padding-right: 35vw;
+    
 }
 
 .section4{
@@ -269,11 +281,11 @@ header {
 .container4{
     background-image: url("assets/MapView.svg");
     background-repeat: no-repeat;
-    /* background-position: -20vw 50%; */
+    background-position: -10vw -5%;
     /* background-size: 500% 500%; */
     height: 90vh;
     min-height: 600px;
-    background-size: 600px;
+    background-size: 700px;
     margin: none;
     padding-left: 25vw;
 }
@@ -288,13 +300,15 @@ header {
 .container5{
     background-image: url("assets/Communities.svg");
     background-repeat: no-repeat;
-    /* background-position: -20vw 50%; */
+    background-position: 35vw -5%;
     /* background-size: 500% 500%; */
     height: 90vh;
     min-height: 600px;
-    background-size: 600px;
+    background-size: 700px;
     margin: none;
-    padding-left: 25vw;
+    margin-left: 10vw;
+    /* margin-right: 10vw; */
+    padding-right: 35vw;
 }
 
 .section6{
@@ -307,11 +321,11 @@ header {
 .container6{
     background-image: url("assets/Leaderboard.svg");
     background-repeat: no-repeat;
-    /* background-position: -20vw 50%; */
+    background-position: -10vw -5%;
     /* background-size: 500% 500%; */
     height: 90vh;
     min-height: 600px;
-    background-size: 600px;
+    background-size: 700px;
     margin: none;
     padding-left: 25vw;
 }
@@ -326,13 +340,15 @@ header {
 .container7{
     background-image: url("assets/NewPost.svg");
     background-repeat: no-repeat;
-    /* background-position: -20vw 50%; */
+    background-position: 35vw -5%;
     /* background-size: 500% 500%; */
     height: 90vh;
     min-height: 600px;
-    background-size: 600px;
+    background-size: 700px;
     margin: none;
-    padding-left: 25vw;
+    margin-left: 10vw;
+    /* margin-right: 10vw; */
+    padding-right: 35vw;
 }
 
 .section8{
@@ -345,11 +361,11 @@ header {
 .container8{
     background-image: url("assets/UploadPost.svg");
     background-repeat: no-repeat;
-    /* background-position: -20vw 50%; */
+    background-position: -10vw -5%;
     /* background-size: 500% 500%; */
     height: 90vh;
     min-height: 600px;
-    background-size: 600px;
+    background-size: 700px;
     margin: none;
     padding-left: 25vw;
 }
